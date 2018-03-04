@@ -1,0 +1,41 @@
+{
+  "color":["#7bc2ff"],
+  "series":{
+    "name": "使用量",
+    "type":"bar",
+    "data": [2,100,28,19,10,20]
+  },
+  "title":{
+    "text":"手机设备分析图",
+    "x":"center",
+    "textAlign":"center"
+  },
+  "xAxis":{
+    "data":["MX4","MI","HUAWEI","IPHONE","Coolpad","OPPO"],
+    "axisLine":{
+      "type":"category",
+      "lineStyle":{
+        "color":"#3e89bc",
+        "width":"3"
+      }
+    },
+    "axisLabel":{
+      "textStyle":{
+        "color":"#666",
+        "fontSize":"12"
+      }
+    }
+  },
+
+  "yAxis":{
+    "axisLine":{
+      "type":"category",
+      "lineStyle":{
+        "color":"#3e89bc",
+        "width":"3"
+      }
+    }
+  },
+  "tooltip":{
+  }
+}

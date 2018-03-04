@@ -1,0 +1,47 @@
+
+	{
+			"color":["#7bc2ff"],
+			"series":{
+			"name": "访问量",
+			"type":"bar",
+			"data": [7,23,48,9],
+			"barWidth":"50"
+	},
+			"title":{
+						"text":"浏览器分析",
+						"x":"center",
+		        		"textAlign":"center"
+						},
+			"xAxis":{
+					"data":["ie","firefox","Chrome","Maxthon"],
+					"axisLine":{
+					    	"type":"category",
+					      	"lineStyle":{
+					      		"color":"#3e89bc",
+					      		"width":"3"
+					      				}
+					     		},
+					"axisLabel":{
+						"textStyle":{
+								"color":"#666",
+					     		"fontSize":"12"
+								}
+						}
+					},
+					
+			"yAxis":{					
+					"axisLine":{
+					    	"type":"category",
+					      	"lineStyle":{
+					      		"color":"#3e89bc",
+					      		"width":"3"
+					      				}
+					     		}
+					},
+		  	"tooltip":{
+			}
+		}
+
+
+
+

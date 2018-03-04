@@ -1,0 +1,132 @@
+{
+    "title": {
+              "text": "地域分布",
+              "x":"center"
+             },
+    "tooltip": {},
+    "legend": {
+              "show":"true",
+              "data": ["河北","河南","山西","四川","北京","上海","天津","广东","广西","黑龙江","吉林","辽宁"]
+              },
+    "xAxis": {
+              "data": ["河北","河南","山西","四川","北京","上海","天津","广东","广西","黑龙江","吉林","辽宁"]
+              },
+    "yAxis": {
+      "max":"70000"
+              },
+    "series":{
+            "name":"浏览量",
+            "type": "bar",
+      "data":[
+        {
+          "value":1000,
+          "name":"河北",
+          "itemStyle": {
+            "normal": {
+              "color": "#4373c7"
+            }
+          }
+        },
+        {
+          "value":4000,
+          "name":"河南",
+          "itemStyle": {
+            "normal": {
+              "color": "#ed7b32"
+            }
+          }
+        },
+        {
+          "value":60000,
+          "name":"山西",
+          "itemStyle": {
+            "normal": {
+              "color": "#a5a5a5"
+            }
+          }
+        },
+        {
+          "value":500,
+          "name":"四川",
+          "itemStyle": {
+            "normal": {
+              "color": "#428fbd"
+            }
+          }
+        },
+        {
+          "value":60000,
+          "name":"北京",
+          "itemStyle": {
+            "normal": {
+              "color": "#5b9cd6"
+            }
+          }
+        },
+        {
+          "value":50000,
+          "name":"上海",
+          "itemStyle": {
+            "normal": {
+              "color": "#70ad46"
+            }
+          }
+        },
+        {
+          "value":55000,
+          "name":"天津",
+          "itemStyle": {
+            "normal": {
+              "color": "#264478"
+            }
+          }
+        },
+        {
+          "value":22000,
+          "name":"广东",
+          "itemStyle": {
+            "normal": {
+              "color": "#9e480f"
+            }
+          }
+        },
+        {
+          "value":22000,
+          "name":"广西",
+          "itemStyle": {
+            "normal": {
+              "color": "#636363"
+            }
+          }
+        },
+        {
+          "value":22000,
+          "name":"黑龙江",
+          "itemStyle": {
+            "normal": {
+              "color": "#9a7200"
+            }
+          }
+        },
+        {
+          "value":2500,
+          "name":"吉林",
+          "itemStyle": {
+            "normal": {
+              "color": "#216093"
+            }
+          }
+        },
+        {
+          "value":53000,
+          "name":"辽宁",
+          "itemStyle": {
+            "normal": {
+              "color": "#44682b"
+            }
+          }
+           }
+      ]}
+
+    }
+

@@ -1,0 +1,39 @@
+{
+        "color":["#7bc2ff", "#e97c30","#a3a3a3","#fbbd00"],
+        "title":{
+              "text": "用户操作系统分析",
+              "left": "center"
+        },
+        "tooltip": {},
+        "legend": {
+                "bottom": 20,
+                "itemWidth":8,
+                "itemHeight":8,
+                "left": "center",
+                "data": ["Windows", "NT","linux","xp"]
+            },
+        "series" : [
+          {
+            "type": "pie",
+            "radius" :"65%",
+            "center": ["50%", "50%"],
+            "data":[
+                  {"value":40, "name": "Windows"},
+                  {"value":10, "name": "NT"},
+                  {"value":30, "name": "linux"},
+                  {"value":20, "name": "xp"}
+            ],
+            "label":{
+                "normal":{
+                      "show":"true",
+                      "position":"inner",
+                      "textStyle" : {
+                                "fontWeight" : "300" ,
+                                "fontSize" : "16"
+                                     },
+                      "formatter":"{d}%"
+                    }
+              }
+            }
+        ]
+ }

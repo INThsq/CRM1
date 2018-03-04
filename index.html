@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+	</head>
+	<body>
+
+
+	<!--header start-->
+	<header class="header">
+		<h1>日志分析系统</h1>
+	</header>
+	<!--header end-->
+
+	<!--nav start-->
+	<nav class="nav">
+		<ul class="wd ma cb">
+			<li class="fl"><a href="index.html" class="active">首页</a></li>
+			<li class="fl"><a href="tjfx.html">统计分析</a></li>
+			<li class="fl"><a href="xxjs.html">信息检索</a></li>
+			<li class="fl"><a href="help.html">帮助</a></li>
+		</ul>
+	</nav>
+	<!--nav end-->
+
+
+
+	<!--rztj-->
+		<section class="rztj wd ma">
+
+			<div class="row">
+				<p class="col-xs-12 tongji">日志统计<span>(针对所有页面汇总)</span></p>
+				<table class="table table-responsive table-bordered table-hover table-striped">
+					<tr>
+						<td></td>
+						<td>网站流量(PV)</td>
+						<td>访客数(UV)</td>
+						<td>跳出率</td>
+						<td>重复访问用户比例</td>
+					</tr>
+					<tr>
+						<td>今日</td>
+						<td>1000</td>
+						<td>500(UV)</td>
+						<td>40</td>
+						<td>20%</td>
+					</tr>
+					<tr>
+						<td>昨日</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>近七日</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>近30日</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+			<!--echarts图表-->
+			<div class="row" id="servious">
+				<p class="col-xs-12 tab">日志统计分析图 <span class="sActive">近七日</span><span>近30日</span></p>
+
+				<form action="" method="">
+					<label><input name="Fruit" type="radio" value="" checked />浏览量(PV) </label>
+					<label><input name="Fruit" type="radio" value="" />访客数(UV) </label>
+					<label><input name="Fruit" type="radio" value="" />IP数</label>
+					<label><input name="Fruit" type="radio" value="" />跳出率</label>
+					<label><input name="Fruit" type="radio" value="" />平均访问时长</label>
+				</form>
+				<div class="col-xs-12" id="pvll">
+
+				</div>
+			</div>
+
+			<div class="row">
+				<p class="col-xs-12" style="margin-top: 0;border-bottom: 0">受访页面TOP10排行(针对于每个页面)</p>
+				<table class="table table-responsive table-bordered table-hover table-striped">
+					<tr>
+						<td>网址</td>
+						<td>网站流量(PV)</td>
+						<td>访客数(UV)</td>
+						<td>IP数</td>
+						<td>跳出率</td>
+						<td>平均访问时长(秒)</td>
+					</tr>
+					<tr>
+						<td>www.baidu.com</td>
+						<td>20</td>
+						<td>10(UV)</td>
+						<td>20</td>
+						<td>4</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</section>
+
+
+	<!--footer start-->
+	<footer>
+		北京市巽智科技有限公司
+	</footer>
+	<!--footer end-->
+
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/echarts.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

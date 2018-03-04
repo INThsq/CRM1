@@ -1,0 +1,54 @@
+{
+  "color":["#7bc2ff"],
+  "series":{
+    "name": "最近30天浏览量",
+    "stack": "总量",
+    "type":"line",
+    "data":[9900,19000,9500,11500,9100,17000,14000,8000,4000,9100,20000,14000,8000],
+    "areaStyle":{
+      "normal":{}
+    }
+  },
+  "title":{
+    "text":"PV浏览量",
+    "x":"center",
+    "textAlign":"center"
+  },
+  "tooltip" : {
+    "trigger": "axis",
+    "axisPointer": {
+      "type":"cross",
+      "label": {
+        "backgroundColor": "#7cc2fe"
+      }
+    }
+  },
+  "grid": {
+    "left": "3%",
+    "right": "4%",
+    "bottom":"3%",
+    "containLabel":"true"
+  },
+
+  "xAxis":{
+    "boundaryGap":false,
+    "data": ["20171215","20171216","20171217","20171218","20171219","20171220","20171221","20171222","20171223","20171224","20171225","20171226","20171227"],
+    "axisLine": {
+      "lineStyle":{
+        "color": "#999"
+      }
+    }
+  },
+
+  "yAxis":{
+    "type": "value",
+    "axisLine": {
+      "lineStyle":{
+        "type": "category",
+        "color": "#999",
+        "width":"0"
+      }
+    }
+  }
+
+}

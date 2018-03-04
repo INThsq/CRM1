@@ -1,0 +1,337 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+.wd{
+	width: 1142px;
+}
+.ma{
+	margin:0 auto;
+}
+.fl{
+	float: left;
+}
+.cb{
+    *zoom: 1;
+}
+.cb:after,.cb:before{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+
+
+/*********************************top end**********************/
+header{
+	background: url(../images/rz-index.png);
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+	color: white;
+
+}
+h1{
+	font-size: 50px!important;
+	letter-spacing: 1px;
+	margin: 0!important;
+	line-height: 150px!important;
+	font-weight: bold;
+}
+/*nav*/
+nav li{
+	list-style: none;
+}
+.nav{
+	background:#002bbf;
+}
+.nav li{
+	display: inline-block;
+	width: 25%;
+	cursor: pointer;
+	height: 40px;
+	color: #a0b9cb;
+	text-align: center;
+	
+}
+.nav li a{
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: inherit;
+	text-decoration: none;
+	width:130px;
+	display: inline-block;
+}
+.active{
+	color:white!important;
+	background: #002299!important;
+}
+/*********************************top end**********************/
+
+
+/*********************************help start**********************/
+.help,.infromation,.tjfx{
+	padding: 20px 0;
+}
+.help p:first-of-type,.infromation p,.tjfx p
+{
+	line-height: 30px;
+	display: block;
+	font-size:16px;
+	font-weight: bold;
+	border-bottom: 2px solid #999999;
+}
+.help h2{
+	line-height: 60px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.help{
+	line-height: 30px;
+	font-size: 14px;
+}
+
+/*********************************help end**********************/
+
+/*********************************xxjs start**********************/
+
+/*search*/
+.row{
+	margin-left: 0!important;
+	margin-right: 0!important;
+	
+}
+.infromation .search{
+	background: #7bc2ff;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+}
+.search .input-group{
+	margin-top:8px;
+}
+.search .btn-default{
+	width: 70px;
+	border: none;
+}
+/*tiaojian*/
+.tianjian .col-xs-3{
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+}
+.tianjian{
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+.tianjian h3{
+	margin: 0;
+	font-size: 18px;
+	line-height: 48px;
+	font-weight: bold;
+
+}
+.tianjian .col-xs-3:nth-child(1),
+.tianjian .col-xs-3:nth-child(2),
+.tianjian .col-xs-3:nth-child(3),
+.tianjian .col-xs-3:nth-child(5),
+.tianjian .col-xs-3:nth-child(6),
+.tianjian .col-xs-3:nth-child(7)
+{
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+.tianjian .col-xs-3:nth-child(4){
+	border-bottom: 1px solid #999999;
+}
+.tianjian .col-xs-3:nth-child(5),
+.tianjian .col-xs-3:nth-child(6),
+.tianjian .col-xs-3:nth-child(7){
+	border-bottom: none;
+}
+.table-bordered{
+	border: 1px solid #999999!important;
+}
+.table-bordered th,tr,td{
+	height: 48px;
+	text-align: center;
+	line-height:2!important;
+}
+.table-bordered td{
+	background: white;
+	border: 1px solid #999!important;
+	height: 78px;
+	line-height:4!important;
+}
+.table-bordered th{
+	font-size: 16px;
+	background: #EEEEEE;
+	border: 1px solid #999!important;
+	
+}
+/*page*/
+.page{
+	background: #f7f7f7;
+	text-align: center;
+	padding-left: 22%;
+}
+.page a{
+	margin-right: 10px;
+	border-radius: 5px;
+	line-height: 1;
+}
+.pagination > li > a{
+	color: black!important;
+}
+.page input{
+	width: 50px;
+	height: 28px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.jilu{
+	margin-top:20px;
+}
+/*********************************xxjs end**********************/
+
+/*********************************index start**********************/
+/*rztj*/
+.rztj{
+	padding-top: 40px;
+}
+.rztj p:first-of-type{
+	line-height: 49px;
+	border: 1px solid  #999999;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 0!important;
+}
+.rztj p:first-of-type span{
+	font-weight: 400;
+	margin-left: 10px;
+	color: #999999;
+
+}
+.rztj table tr:first-of-type td{
+	background: #EEEEEE;
+	font-weight: bold;
+}
+.rztj table tr td:first-of-type{
+	width: 30%;
+}
+.rztj table td{
+	line-height: 50px!important;
+	height: 50px!important;
+	box-sizing: border-box;
+	padding: 0!important;
+}
+#pvll{
+	height: 348px;
+	border:1px solid #999999;
+}
+#servious{
+	margin-bottom: 40px;
+}
+#servious form{
+	line-height: 50px;
+	background:#f1f1f1;
+	margin: 0;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	font-size: 16px;
+
+}
+#servious form input{
+	margin-left: 35px;
+}
+#servious form input:first-of-type{
+	margin-left:0;
+}
+.rztj .tab{
+	margin-top: 0;
+	display: inline-block;
+}
+#servious form label{
+	letter-spacing: 1px;
+}
+#servious form label input{
+	margin-right: 2px;
+}
+.rztj .tab span{
+	display: inline-block;
+	width: 74px!important;
+	height: 30px!important;
+	text-align: center;
+	line-height:2;
+	cursor: pointer;
+}
+.tongji +table{
+	margin-bottom: 40px;
+}
+.sActive{
+	background: #1693ff;
+	color: white!important;
+	border-radius: 5px;
+}
+#servious form{
+	margin-bottom: 0;
+	border-top: none;
+	font-size:16px;
+}
+#servious form label{
+	padding: 0 36px 0 18px;
+	margin-bottom: 0;
+	font-weight:400;
+}
+.rztj .tongji{
+	margin-top: 0;
+}
+#pvll{
+	margin-top: 0!important;
+}
+/*********************************index end**********************/
+
+/*********************************tjfx start**********************/
+ .col-xs-12{
+	background: linear-gradient(0deg,#efedee,#f6f5f6,#fcfbfc)!important;
+	 margin-top: 20px;
+}
+#broswer,#usercz{
+	height: 630px;
+}
+#user{
+	background: navajowhite;
+	height: 630px;
+	
+}
+#fxpvll{
+	height: 350px;
+	margin-bottom: 20px;
+}
+
+#area{
+	height:490px;
+}
+#usersbei,#phonesbei{
+	margin-bottom: 20px;
+	height: 600px;
+}
+/*********************************tjfx end**********************/
+
+
+
+/*********************************bottom start**********************/
+footer{
+		background:#1270c4;
+		text-align: center;
+		color: white;
+		height: 130px;
+		line-height: 130px;
+		}
+/*********************************bottom start**********************/

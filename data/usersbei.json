@@ -1,0 +1,37 @@
+{
+  "color":["#7bc2ff", "#fbbd00"],
+  "title":{
+    "text": "用户设备对比图",
+    "left": "center"
+  },
+  "tooltip": {},
+  "legend": {
+    "bottom": 40,
+    "itemWidth":8,
+    "itemHeight":8,
+    "left": "left",
+    "data": ["手机", "PC"]
+  },
+  "series" : [
+    {
+      "type": "pie",
+      "radius" :"65%",
+      "center": ["50%", "50%"],
+      "data":[
+        {"value":80, "name": "手机"},
+        {"value":20, "name": "PC"}
+      ],
+      "label":{
+        "normal":{
+          "show":"true",
+          "position":"inner",
+          "textStyle" : {
+            "fontWeight" : "300" ,
+            "fontSize" : "16"
+          },
+          "formatter":"{d}%"
+        }
+      }
+    }
+  ]
+}
